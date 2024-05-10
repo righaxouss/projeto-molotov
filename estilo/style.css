@@ -54,11 +54,11 @@ menu > ul > li > a{
     width: 60px;
 text-align: left;
 display: block;
-padding: 10px;
+padding:20px;
 text-decoration: none;
 
-color: white;
-border-bottom: 2px solid rgba(255, 255, 255, 0.699);
+color: black;
+border-bottom: 2px solid rgba(0, 0, 0, 0.699);
 
 }
 
@@ -101,9 +101,9 @@ main{
 
 main > video{
 padding: 20px;
-width: 50%;
-max-width: 200px;
-max-height: 320px;
+width: 60%;
+max-width: 250px;
+max-height: 350px;
 }
 
 
