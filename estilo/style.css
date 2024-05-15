@@ -28,7 +28,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 #burguer{
     font-size: 2.3em;
-    padding: 5px;
+    padding: 10px;
     color: black;
     display: block;
     text-align: left;
@@ -81,6 +81,7 @@ menu >  a:hover{
 }
 
 header{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.13);
 display: flex;
    border-radius: 0px 0px 5px 5px;
     background-color: white;
@@ -100,6 +101,7 @@ text-align: center;
 
 
 main{
+   
     margin-top: 20px;
     border-radius: 5px 5px 5px 5px;
     
@@ -108,37 +110,69 @@ main{
     margin-bottom: 20px;
 }
 
-.midias{
+.midias1{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.13);
 padding: 20px;
     background-color: white;
 }
 
-.midias > video{
-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.226);
+.midias1 > video{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.13);
 margin: 10px;
 max-width: 250px;
 max-height: 350px;
 }
 
 
-.midias > h1{
+.midias1 > h1{
 padding: 20px;
 font-size: 18px;
 }
 
-.midias > p{
+.midias1 > p{
 text-align: justify;
 }
 
 
-.midias > img{
+.midias1 > img{
 display: block;
 width: 200px;
 height: 350px;
 
 }
 
-
+.midias2{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.13);
+    margin-top: 20px;
+    padding: 20px;
+        background-color: white;
+    }
+    
+    .midias2 > video{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.13);
+    margin: 10px;
+    max-width: 250px;
+    max-height: 350px;
+    }
+    
+    
+    .midias2 > h1{
+    padding: 20px;
+    font-size: 18px;
+    }
+    
+    .midias2 > p{
+    text-align: justify;
+    }
+    
+    
+    .midias2 > img{
+    display: block;
+    width: 200px;
+    height: 350px;
+    
+    }
+    
 
 footer{
 text-align: right;
