@@ -96,28 +96,31 @@ text-align: center;
 main{
     margin-top: 20px;
     border-radius: 5px 5px 5px 5px;
-    background-color: white;
+    
     text-align: center;
     padding: 10px;
     margin-bottom: 20px;
 }
 
-main > video{
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.226);
+.midias{
+padding: 20px;
+    background-color: white;
+}
 
-
-margin: 20px;
+.midias > video{
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.226);
+margin: 10px;
 max-width: 250px;
 max-height: 350px;
 }
 
 
-main > h1{
+.midias > h1{
 padding: 20px;
 font-size: 18px;
 }
 
-main > p{
+.midias > p{
 text-align: justify;
 }
 
