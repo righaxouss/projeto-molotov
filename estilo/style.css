@@ -96,14 +96,12 @@ main{
 
 
 .videos{
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.13);
-    
-   
     }
 
 
+
 .midias1{
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.13);
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.13);
 padding: 20px;
     background-color: white;
 }
@@ -112,7 +110,7 @@ padding: 20px;
 
 .midias1 > h1{
 padding: 20px;
-font-size: 18px;
+font-size: 25px;
 }
 
 .midias1 > p{
