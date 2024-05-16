@@ -96,6 +96,7 @@ main{
 
 
 .videos{
+    border-radius: 5px;
     }
 
 
@@ -123,8 +124,18 @@ font-size: 25px;
     margin-bottom: 80px;
 }
 
-    
-    
+ .li{
+
+    padding: 20px;
+
+ }
+
+
+
+
+
+
+
 
 footer{
 text-align: right;
@@ -147,10 +158,3 @@ width: 45px;
 
  
 
- li{
-    margin-top: 10px;
-    font-weight: bolder;
-    padding: 3px;
-list-style-type: none;
-
- }
