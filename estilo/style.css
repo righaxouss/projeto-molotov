@@ -91,7 +91,8 @@ main{
     border-radius: 5px 5px 5px 5px;
     text-align: center;
     padding: 0px;
-    width: 460px;
+    min-width: 460px;
+    max-width: 1200px;
 }
 
 
@@ -123,12 +124,7 @@ font-size: 25px;
     margin-bottom: 80px;
 }
 
- .li{
-
-    padding: 20px;
-
- }
-
+ 
 
 
 
