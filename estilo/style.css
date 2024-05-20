@@ -25,8 +25,33 @@ font-family: Arial, Helvetica, sans-serif;
 
 
 
+footer{
+    text-align: right;
+    padding-top: 15px;
+    position: relative;
+    position: sticky;
+    bottom: -1px;
+    top: -1px;
+    
+     }
+    
+    footer > a > img{
+    position: relative;
+    position: sticky;
+    padding: 20px;
+    width: 45px;
+    
+     }
+
 
 #burguer{
+    text-align: right;
+    padding-top: 15px;
+    position: relative;
+    position: sticky;
+    bottom: -1px;
+    top: -1px;
+
     font-size: 1.8em;
     padding: 10px;
     color: black;
@@ -62,6 +87,7 @@ list-style-type: none;
 
 
 menu > a {
+    
     text-decoration: underline;
     font-size: 1em;
     padding: 10px;
@@ -97,12 +123,12 @@ main{
 
 img{
 
-    border-radius: 3px;
+    border-radius: 2px;
 
 }
 
 .videos{
-    border-radius: 5px;
+    border-radius: 2px;
     }
 
 
@@ -126,14 +152,10 @@ font-size: 25px;
 }
 
 .midias1 > center >p{
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
  
-
-
-
-
 
 
 
