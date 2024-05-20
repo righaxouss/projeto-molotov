@@ -131,7 +131,7 @@ img{
 
 
 .midias1{
-    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.13);
+    
 padding: 20px;
 background-color: #0F0F0F;
 color: white;
@@ -147,6 +147,13 @@ font-size: 25px;
 .midias1 > p{
     padding: 20px;
     font-size: 18px;
+}
+
+.midias1 > p:hover{
+
+color: red;
+
+
 }
 
 .midias1 > center >p{
@@ -171,7 +178,7 @@ footer > a > img{
 position: relative;
 position: sticky;
 padding: 20px;
-width: 45px;
+width: 55px;
 
  }
 
