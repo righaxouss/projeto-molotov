@@ -48,6 +48,14 @@ footer{
     
      }
 
+     #transparente{
+           color: #0F0F0F;
+          
+        }
+
+        #transparentee{
+            text-decoration: none;
+        }
 
 #burguer{
     text-align: right;
