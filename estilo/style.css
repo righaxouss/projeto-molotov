@@ -106,9 +106,12 @@ color: white;
 text-align: center;
 display: block;
 
+}
 
 
+#itens{
 
+    border-bottom: 3px solid #474747;
 
 }
 
