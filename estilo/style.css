@@ -22,6 +22,15 @@ font-family: Arial, Helvetica, sans-serif;
 }
    
 
+#linksetinha{
+    display: flex;
+    
+    font-size: 2em;
+    color: white;
+text-decoration: none;
+}
+
+
 
 .enviar{
     margin: 3px;
@@ -58,6 +67,10 @@ footer{
         #transparentee{
             text-decoration: none;
         }
+
+
+        
+
 
 #burguer{
     text-align: right;
