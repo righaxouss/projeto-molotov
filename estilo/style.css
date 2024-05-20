@@ -14,8 +14,8 @@ padding: 0px;
 
 
 body{
-   background-color: #F5F5F5;
-    color: black;
+    background-color: #0F0F0F;
+    color: white;
     margin-top: 0px;
     margin-left: 10px;
     margin-right: 10px;
@@ -54,17 +54,13 @@ footer{
 
     font-size: 1.8em;
     padding: 10px;
-    color: black;
+    color: white;
     display: block;
     text-align: center;
    
     cursor: pointer;
 }
 
-#burgur:hover{
-
-color: black;
-}
 
 menu{
  
@@ -73,14 +69,14 @@ menu{
     display: block;
    
 
-    background-color:white;
+    background-color: #0F0F0F;
 display: none;
 
 }
 
 
 menu > a{
-    
+    color: white;
 list-style-type: none;
 
 }
@@ -91,7 +87,7 @@ menu > a {
     text-decoration: underline;
     font-size: 1em;
     padding: 10px;
-color: black;
+color: white;
 text-align: center;
 display: block;
 
@@ -113,6 +109,7 @@ menu >  a:hover{
 
 
 main{
+    
    margin: 0px;
     border-radius: 5px 5px 5px 5px;
     text-align: center;
@@ -136,7 +133,8 @@ img{
 .midias1{
     box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.13);
 padding: 20px;
-    background-color: white;
+background-color: #0F0F0F;
+color: white;
 }
 
 
