@@ -10,12 +10,52 @@
 
 <style>
 
+
+
+
+main{
+
+height: 100vh;
+
+}
+
+
 input{
 padding: 8px;
 font-size: 1em;
 }
 
 
+
+picture{
+    text-align: center;
+    padding: 20px;
+    background-color: #0F0F0F;
+    color: white;
+    }
+    
+
+    
+    picture > p{
+        font-weight: bolder;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Times, serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 20px;
+        font-size: 18px;
+    }
+    
+    picture > p:hover{
+ 
+    color: red;
+    
+    
+    }
+
+    .pred{
+font-weight: bolder;
+color: rgb(255, 255, 255);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Times, serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
 
 </style>
 
@@ -35,44 +75,37 @@ font-size: 1em;
         <i id="burguer" class="material-symbols-outlined"  onclick="clickMenu()">menu</i>
         <menu id="itens" >
 
-            <a href="">No access</a>
-            <a href="">No access</a>
-            <a href="">No access</a>
+            <a class="pred" href="">Telegram</a>
+            <a class="pred" href="">Intagram</a>
+            <a class="pred" href="">Discord</a>
            
             
         </menu>
     
     
-        
-        <p>Neviem, ako žiť bez teba
-            Dnes som chcel na teba zabudnúť
-            Ale čím viac sa snažím, tým viac si pamätám
-            Neviem, ako žiť bez teba
-            Neviem, ako žiť  bez teba
-            Musím sa znova naučiť, ako žiť, aby som zabudol
-            Aby som na teba  zabudol
-            Aby som na teba zabudol - CPM22. </p>
-   
-
-            <p>náväzec, len on a jeho malý svet. Ovplyvnený
-             a zmanipulovaný, ale to mu nezabránilo v
-              tom, aby bol manipulátorom.
-          coqueteltitanbio
-            Zasraný rasista, ktorý využíva láskavosť ľudítitanio
-            na svoj prospech.
-        </p>
-        <p>Nacista, rasista, pedofil, podvodník, násilník...
+        <picture>
             
-            Bola to veľká zábava, nič neľutujem.
-        </p>
+           
+                <p>náväzec, len on a jeho malý svet. Ovplyvnený
+                 a zmanipulovaný, ale to mu nezabránilo v
+                  tom, aby bol manipulátorom.
+              coqueteltitanbio
+                Zasraný rasista, ktorý využíva láskavosť ľudítitanio
+                na svoj prospech.
+            </p>
+            <p>Nacista, rasista, pedofil, podvodník, násilník...
             
+                Bola to veľká zábava, nič neľutujem.
+            </p>
+            
+        </picture>
 <br>
 <br>
 <br>
         <form action="">
             <p>
     
-                <label for="inome">Name</label>
+                <label for="inome"></label>
                 <input type="text" name="nome" id="inome" required maxlength="5" autocomplete="name" >
     
             </p>
